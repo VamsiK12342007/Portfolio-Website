@@ -1,0 +1,159 @@
+body {
+    background-color: yellowgreen;
+    font-size: 30px;
+}
+
+.mainnav {
+    text-align: center;
+    font-size: 30px !important;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.containersidebar{
+    position: fixed;
+    right: 0;
+}
+.containersidebar a{
+    color: white;
+}
+
+.backgroundcolor {
+    background-color: burlywood;
+}
+
+h1 {
+    color:white;
+}
+
+h2 {
+    border: 10px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+h5 {
+    text-align: center;
+    border: 10px solid black;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.sidebar {
+    border: 1px solid black;
+    list-style: none;
+}
+
+.containersidebar {
+    border: 1px solid black;
+    list-style: none;
+    width: 20%;
+    top: 175px;
+    margin: 0 10;
+    
+}
+
+.intromessage {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+
+.footer {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+  justify-content: space-evenly;
+  border: 5px solid brown;
+  font-size: 15px;
+}
+.justifycenter{
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    padding:10px;
+    color:white;
+    text-align: center;
+}
+
+.sibimlcontainer {
+    Margin:10px;
+}
+
+.centerAlign h3{
+    text-align: center;
+}
+#myIntro{
+    width: 30%;
+}
+
+/*reference used: https://www.w3schools.com/css/css3_mediaqueries.asp */
+@media screen and (max-width: 450px) { 
+    .mobileView{
+        display:block;
+        font-size: 15px;
+    }
+
+    .fullWidthImage{
+        width: 100%;
+    } 
+    .containersidebar{
+        width: 60%;
+        font-size: 24px;
+    } 
+    h1 {
+        font-size: 25px;
+    }
+
+    #logos {
+        height: 300px;
+    }
+
+    #intomessage {
+        font-size: 20px;
+    }
+
+    .mainnav a {
+        font-size: 20px;
+    }
+
+    #myIntro {
+       width: 100%;
+    }
+
+    .centerAlign h4 {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:451px) and (max-width: 850px) {
+    .fullWidthImage{
+        width: 50%;
+    } 
+    #myIntro{
+        font-size: 25px;
+    }
+
+    #myIntro {
+        width: 50%;
+     }
+
+    .containersidebar {
+        width: 50%;
+        font-size: larger;
+        color:black;
+    }
+
+}
+
