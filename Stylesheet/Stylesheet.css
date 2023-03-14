@@ -9,7 +9,12 @@ body {
     border: 10px solid black;
     padding: 20px;
     margin: 10px;
-    
+}
+
+#secondnav {
+    border:10px solid black;
+    text-align: center;
+    margin: 20px;
 }
 .containersidebar{
     position: fixed;
@@ -135,6 +140,12 @@ p {
 
     .centerAlign h4 {
         font-size: 15px;
+    }
+
+    .homepageposters {
+        display: block;
+        justify-content: space-evenly;
+        
     }
 }
 @media screen and (min-width:451px) and (max-width: 850px) {
