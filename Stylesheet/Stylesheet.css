@@ -1,6 +1,7 @@
 body {
-    background-color: yellowgreen;
+    background-color: lightskyblue;
     font-size: 30px;
+    font-family: "Edu NSW ACT Foundation", serif;
 }
 
 .mainnav {
@@ -63,13 +64,72 @@ h4 {
     width: 20%;
     top: 175px;
     margin: 0 10;
+}
+
+#evidencebackground {
+    background-color: red;
+}
+
+#murderbackground {
+    background-color: black;
+}
+
+#sibimlbackground {
+    background-color: yellow;
+}
+
+#imbackground {
+    background-color: white;
+}
+
+#wrongbackground {
+    background-color: black;
+}
+
+#Tomsbackground {
+    background-color: gray;
+}
+
+#sibimltitle {
+    background-color: yellow;
+}
+
+#evidencetitle {
+    background-color: red;
+}
+
+#murdertitle {
+    background-color: black;
+}
+
+#wrongtitle {
+    background-color: black;
+}
+
+#Tomstitle {
+    background-color: gray;
+}
+
+#Inturruptedtitle {
+    background-color: white;
+}
     
+#watchOnline {
+    border:3px solid black;
 }
 
 .intromessage {
     text-align: center;
     font-size: 25px;
     color: red;
+
+}
+
+.ContactForm {
+    text-align: center;
+    font-size: 30px;
+    border: 5px solid red;
+    margin-top: 30px;
 }
 
 .footer {
@@ -102,6 +162,8 @@ p {
 }
 #myIntro{
     width: 30%;
+    font-size: 30px;
+    color: rgb(83, 16, 228);
 }
 
 /*reference used: https://www.w3schools.com/css/css3_mediaqueries.asp */

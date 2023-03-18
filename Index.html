@@ -10,11 +10,13 @@
     <meta name="keywords" content="HTML,CSS,Short films, Feature films">
     <meta name="viewport" content="width=device-width">
     <link href="Stylesheet/Stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="Javascript/javascript.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Edu NSW ACT Foundation">
 </head>
 
 <body>
     <header>
-        <nav class="mainnav backgroundcolor flexbox">
+        <nav class="mainnav backgroundcolor flexbox" id="intromessage">
             <a href="Index.html">Home</a>
             <a href="Previous films.html">Our Films</a>
             <a href="Future Films">Future Films</a>
@@ -28,7 +30,7 @@
     </div>
 
 
-    <div class="intromessage" id="intomessage">
+    <div class="intromessage" id="intromessage">
         Welcome to KVP Pictures offical site. You can check out our previous films & future films.
     </div>
 
@@ -37,6 +39,40 @@
         <img src="Images/Posters/Tom's Bullies.png" width="300px" height="478px">
         <img src="Images/Posters/Interrupted-Marriage-1.jpg" width="300px" height="478px" >
     </div>
+
+    <h5>Contact Form</h5>
+
+    <div>
+        <form class="ContactForm">
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" name="First">
+            </div>
+
+            <div>
+                <label for="fname">Last Name</label>
+                <input type="text" name="Last">
+            </div>
+
+            <div>
+                <label for="fname">Email</label>
+                <input type="text" name="Email">
+            </div>
+
+            <div>
+                <label for="fname">Phone Number</label>
+                <input type="text" name="Phone Number">
+            </div>
+
+            <div>
+                <label for="fname">Message</label>
+                <input id="messageinput" type="text" name="Message">
+            </div>
+
+            <div>
+                <input type="submit" class="Button" value="Submit">
+            </div>
+        </form>
 
 
     <footer class="footer">
